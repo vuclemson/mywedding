@@ -1,7 +1,7 @@
 ---
 layout: page
 title: How He Proposed
-permalink: /reception/
+permalink: /proposal/
 category: realpage
 ---
 
