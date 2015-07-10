@@ -1,2 +1,9 @@
-<html>
-<body>
+<nav class=navbar navbar-default">
+<ul class="nav nav-tabs">
+{% for page in site.pages %}
+	{% if page.category == "realpage" %}
+	<li role="presentation"><a href={{ page.url }}>{{ page.title }} </a></li>
+	{% endif %}
+{% endfor %}
+</ul>
+</nav>
