@@ -1,5 +1,6 @@
 <nav class=navbar navbar-default">
 <ul class="nav nav-tabs">
+	<li role="presentation"><a href=../index.html>Home</a></li>
 {% for page in site.pages %}
 	{% if page.category == "realpage" %}
 	<li role="presentation"><a href={{ page.url }}>{{ page.title }} </a></li>
