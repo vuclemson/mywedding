@@ -5,7 +5,7 @@ description: This page contains information about our wedding
 baseurl: /
 url: "http://vuandtracy.com" # the base hostname & protocol for your site
 twitter_username: vuclemson
-github_username:  jvuclemson
+github_username:  vuclemson
 
 # Build settings
 markdown: kramdown
