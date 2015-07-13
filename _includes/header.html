@@ -1,10 +1,19 @@
 <nav class=navbar navbar-default">
 <ul class="nav nav-tabs">
-	<li role="presentation"><a href=../index.html>Home</a></li>
-{% for page in site.pages %}
-	{% if page.category == "realpage" %}
-	<li role="presentation"><a href={{ page.url }}>{{ page.title }} </a></li>
+	{% if page.url != "/index.html" %} 
+		<li role="presentation"><a href="../">Home</a></li> 
+	{% else %}
+		<li role="presentation"><a href="#" class="active">Home</a></li> 
+	{% endif %}
+{% for p in site.pages %}
+	{% if p.category == "realpage" %}
+		{% if p.url == page.url %}
+			<li role="presentation"><a href=# class="active"> {{ p.title }} </a></li>
+		{% else %}
+			<li role="presentation"><a href={{ p.url }}>{{ p.title }} </a></li>
+		{% endif %}
 	{% endif %}
 {% endfor %}
 </ul>
 </nav>
+
