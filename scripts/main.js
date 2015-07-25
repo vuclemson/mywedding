@@ -26,7 +26,7 @@ $(function(){
 
 	// initilize
 	setHeight($("#hero"));
-	setHeight($("#photos"));
+	//setHeight($("#photos"));
 	setHeight($("#hotels"));
 	setHeight($("#details"));
 });
