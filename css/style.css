@@ -82,6 +82,7 @@ nav.menu ul#main_menu li > a:focus {
 	font-weight:800;
 	font-size:36px;
 	padding:20px 0 10px 0;
+	opacity: .8;
 }
 span.swirl_left{
 	display:inline-block;
@@ -94,12 +95,16 @@ span.swirl_right{
 	padding:10px 130px 10px 0px;
 }
 .title_under{
-	color: #b5af47;
+	/*color: #b5af47;*/
+	color: #ffffff;
 	font-weight:800;
 	font-size:24px;
 	padding:30px 0 0 0;
 }
 
+.lovebirds {
+	opacity: .8;
+}
 /*PHOTOS*/
 #owl-demo .item img{
     display: block;
@@ -109,18 +114,15 @@ span.swirl_right{
     padding: 2% 2% 2% 2%;
 }
 
-#photos:before {
-	content: " ";
-	display: block;
+#photos {
 	width: 100%;
 	height: 100%;
-	position: absolute;
 	background: rgba(0,0,0,1);
 }
 
-#owl-demo .owl-wrapper-outer, #owl-demo .owl-controls {
-	background: rgba(0,0,0,1);
-}
+/*#owl-demo .owl-wrapper-outer, #owl-demo .owl-controls {
+	background: white;
+}*/
 
 
 @media screen and (max-width: 680px) {
