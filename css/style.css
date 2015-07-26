@@ -248,6 +248,7 @@ span.swirl_right{
 		position: inherit;
 		float: none;
 		margin-top: 10px;
+		border: 1px solid;
 	}
 
 }
