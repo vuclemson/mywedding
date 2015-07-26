@@ -38,21 +38,23 @@ nav.menu ul#main_menu li > a:focus {
 
 /* HERO */
 #hero {
-	background: url('../images/slide1.jpg') no-repeat center center;
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;
+	background: url('../images/photos/IMG_5979.jpg') no-repeat center center;*/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photos/IMG_5979.jpg') no-repeat center center;
 	width: 100%;
 	padding: 0;
 	margin: 0;
 	position: relative;
 
 }
-#hero:before {
+/*#hero:before {
 	content: " ";
 	display: block;
 	width: 100%;
 	height: 100%;
 	position: absolute;
 	background: rgba(0,0,0,0.4);
-}
+}*/
 
 .title_container{
 	text-align:center;
@@ -66,23 +68,26 @@ nav.menu ul#main_menu li > a:focus {
 	font-size:120px;
 	color:#FFFFFF;
 	text-align:center;
-	font-family: 'Clicker Script', cursive;
+/*	font-family: 'Clicker Script', cursive;*/
+	font-family: 'Pinyon Script';
 }
 
 .title span {color: #d7d677}
 
 .title_front{
-	font-weight:800;
+	font-weight:500;
 	font-size:24px;
 	color:#FFFFFF;
 	padding:0 0 30px 0;
+	font-family: "Pontano Sans";
 }
 .title_date{
 	color:#FFFFFF;
-	font-weight:800;
+	font-weight:500;
 	font-size:36px;
 	padding:20px 0 10px 0;
 	opacity: .8;
+	font-family: "Pontano Sans";
 }
 span.swirl_left{
 	display:inline-block;
@@ -97,9 +102,10 @@ span.swirl_right{
 .title_under{
 	/*color: #b5af47;*/
 	color: #ffffff;
-	font-weight:800;
+	font-weight:500;
 	font-size:24px;
 	padding:30px 0 0 0;
+	font-family: "Pontano Sans";
 }
 
 .lovebirds {
@@ -124,6 +130,51 @@ span.swirl_right{
 	background: white;
 }*/
 
+/*#hotels {
+
+	width: 100%;
+	height: 100%;
+	background: rgba(0,0,0,1);	
+}
+.row {
+	color: #ccc;
+    padding: 30px;
+    background: url('../images/menu_border_bottom.png') no-repeat;
+}*/
+
+#hotels {
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
+	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photos/IMG_5831.jpg') no-repeat center center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*position:absolute;*/
+}
+
+/*Details of the Wedding*/
+#details {
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
+/*	background: url('../images/photos/IMG_5979.jpg') no-repeat center center;*/
+		background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photos/IMG_5979.jpg') no-repeat center center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*position:absolute;*/
+}
+
+
+.row {
+	background: url('../images/menu_border_bottom.png') no-repeat;
+	padding: 0 0 2% 0;
+	color: #FFF;
+	font-family: "Pontano";
+}
+
+.row h3 {
+	color: #CC6F18;
+	font-family: "Pontano Sans";
+}
 
 @media screen and (max-width: 680px) {
 
@@ -140,37 +191,42 @@ span.swirl_right{
 		width:100%
 	}
 	.title{
-	font-size:50px;
-	color:#FFFFFF;
-	text-align:center
+		font-size:50px;
+		color:#FFFFFF;
+		text-align:center;
+		font-family: 'Pinyon Script';
 	}
 	.title_front{
-	font-weight:800;
-	font-size:18px;
-	color:#FFFFFF;
-	padding:0 0 30px 0
+		font-weight:500;
+		font-size:18px;
+		color:#FFFFFF;
+		padding:0 0 30px 0;
+		font-family: "Pontano Sans";
 	}
 	.title_date{
-	color:#FFFFFF;
-	font-weight:800;
-	font-size:14px;
-	padding:0px 0 10px 0
+		color:#FFFFFF;
+		font-weight:500;
+		font-size:14px;
+		padding:0px 0 10px 0;
+		opacity: .8;
+		font-family: "Pontano Sans";
 	}
 	span.swirl_left{
-	display:inline-block;
-	background:url(../images/swirl_left.png) no-repeat left bottom;
-	padding:0 0 0 100px
+		display:inline-block;
+		background:url(../images/swirl_left_small.png) no-repeat left bottom;
+		padding:0 0 0 100px
 	}
 	span.swirl_right{
-	display:inline-block;
-	background:url(../images/swirl_right.png) no-repeat right bottom;
-	padding:20px 100px 50px 0px
+		display:inline-block;
+		background:url(../images/swirl_right_small.png) no-repeat right bottom;
+		padding:20px 100px 50px 0px
 	}
 	.title_under{
-	font-weight:800;
-	font-size:18px;
-	color:#b5af47;
-	padding:20px 0 0 0
+		font-weight:500;
+		font-size:18px;
+		color:#FFF;
+		padding:20px 0 0 0;
+		font-family: "Pontano Sans";
 	}
 
 	nav.menu ul#main_menu li > a {
