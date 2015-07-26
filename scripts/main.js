@@ -7,12 +7,13 @@ var setHeight = function (o) {
 };
 
 var goToSection = function(o){
-	console.log(o);
+	// console.log(o);
 
     $('html, body').animate({
         scrollTop: $(o).offset().top
     }, 300);
 };
+
 // document ready
 $(function(){
 
@@ -37,11 +38,11 @@ $(document).ready(function() {
   $("#owl-demo").owlCarousel({
  
       navigation : true, // Show next and prev buttons
-      slideSpeed : 1000,
+      slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
       // stopOnHover: true,
-      autoPlay: 6000,
+      // autoPlay: 6000,
   
       // "singleItem:true" is a shortcut for:
       // items : 1, 
