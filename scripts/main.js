@@ -6,13 +6,14 @@ var setHeight = function (o) {
 	});
 };
 
-var goToSection = function(o){
-	// console.log(o);
+// this function makes the page scroll down 
+// var goToSection = function(o){
+// 	// console.log(o);
 
-    $('html, body').animate({
-        scrollTop: $(o).offset().top
-    }, 300);
-};
+//     $('html, body').animate({
+//         scrollTop: $(o).offset().top
+//     }, 300);
+// };
 
 // document ready
 $(function(){
@@ -41,8 +42,8 @@ $(document).ready(function() {
       slideSpeed : 300,
       paginationSpeed : 400,
       singleItem:true,
-      // stopOnHover: true,
-      // autoPlay: 6000,
+      stopOnHover: true,
+      autoPlay: 6000,
   
       // "singleItem:true" is a shortcut for:
       // items : 1, 
