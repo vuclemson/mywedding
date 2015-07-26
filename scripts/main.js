@@ -6,7 +6,7 @@ var setHeight = function (o) {
 	});
 };
 
-this function makes the page scroll down 
+//this function makes the page scroll down 
 var goToSection = function(o){
 	// console.log(o);
 
