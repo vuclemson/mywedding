@@ -6,14 +6,14 @@ var setHeight = function (o) {
 	});
 };
 
-// this function makes the page scroll down 
-// var goToSection = function(o){
-// 	// console.log(o);
+this function makes the page scroll down 
+var goToSection = function(o){
+	// console.log(o);
 
-//     $('html, body').animate({
-//         scrollTop: $(o).offset().top
-//     }, 300);
-// };
+    $('html, body').animate({
+        scrollTop: $(o).offset().top
+    }, 300);
+};
 
 // document ready
 $(function(){
