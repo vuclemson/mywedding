@@ -42,10 +42,10 @@ nav.menu ul#main_menu li > a:focus {
 	background: url('../images/photos/IMG_5979.jpg') no-repeat center center;*/
 	background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)), url('../images/photos/IMG_5979.jpg') no-repeat center center;
 	width: 100%;
+	height: 100%;
 	padding: 0;
 	margin: 0;
 	position: relative;
-
 }
 /*#hero:before {
 	content: " ";
@@ -142,15 +142,6 @@ span.swirl_right{
     background: url('../images/menu_border_bottom.png') no-repeat;
 }*/
 
-#hotels {
-/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
-/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
-	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/photos/IMG_5831.jpg') no-repeat center center;
-	width: 100%;
-	padding: 0;
-	margin: 0;
-	/*position:absolute;*/
-}
 
 /*Details of the Wedding*/
 #details {
@@ -163,6 +154,22 @@ span.swirl_right{
 	/*position:absolute;*/
 }
 
+#hotels {
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
+/*	background: url('../images/photos/IMG_5831.jpg') no-repeat center center;*/
+	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/photos/IMG_5831.jpg') no-repeat center center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+	/*position:absolute;*/
+}
+
+#contacts {
+	background: linear-gradient(rgba(0, 0, 0, .9), rgba(0, 0, 0, .9)), url('../images/photos/IMG_8264.jpg') no-repeat center center;
+	width: 100%;
+	padding: 0;
+	margin: 0;
+}
 
 .row {
 	background: url('../images/menu_border_bottom.png') no-repeat;
