@@ -13,6 +13,8 @@ nav.menu button {
 	position: inherit;
 	float: none;
 	margin-top: 47px;
+/*	color: #5A0204;*/
+	color: #CC2900;
 }
 
 nav.menu ul#main_menu{
@@ -33,7 +35,7 @@ nav.menu ul#main_menu li > a:hover,
 nav.menu ul#main_menu li > a:focus {
 	background: transparent;
 	background-image: none;
-	color:#434343;
+	color:#5A0204;
 }
 
 /* HERO */
@@ -237,7 +239,8 @@ span.swirl_right{
 	}
 
 	nav.menu ul#main_menu li > a {
-	color: #FFFFFF;
+	/*color: #FFFFFF;*/
+	color:#CC2900;
 	background-color: #b5af47;
 	font-weight:400;
 	background: rgba(0,0,0,0.4);
@@ -248,7 +251,7 @@ span.swirl_right{
 		background: transparent;
 		background-color: #b5af47;
 		background-image: none;
-		color:#434343;
+		color:#FFFFFF;
 		background: rgba(0,0,0,0.4);
 	}
 	nav.menu button {
